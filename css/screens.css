@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 992px) {
+    .bannertitle {
+        font-size: 250%;
+    }
+    .buttondiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .section1 {
+        display: block;
+    }
+    .section1>div {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+    }
+    .sec4 {
+        display: block;
+    }
+    .pic2:after {
+        border-color: transparent white white transparent;
+        top: -1.8rem;
+        right: 80%;
+    }
+    .linkdiv {
+        display: none;
+    }
+    .section3 {
+        display: block;
+    }
+    .section3>div {
+        width: 100%;
+    }
+    .sec5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .linkdiv {
+        display: block;
+    }
+    .bars {
+        display: none;
+    }
+}
