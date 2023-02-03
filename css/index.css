@@ -259,6 +259,13 @@ border-radius: 1rem;
 .loadimg img {
     width: 10%;
 }
+.sec4title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.sec4title>span {
+    color: orange;
+}
 /* 
 android screen = 465px
 tablet screen = 578px
